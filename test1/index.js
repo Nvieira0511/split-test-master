@@ -43,19 +43,20 @@ var json = {
                     ],
                     correctAnswer: "\"55\""
                 }
-            ]}, {
-                questions: [
-                    {
-                        type: "radiogroup",
-                        name: "calc2",
-                        title: "What is the answer x = 5 + 5",
-                        choicesOrder: "random",
-                        choices: [
-                            "0", "10", "20", "55", "\"55\""
-                        ],
-                        correctAnswer: "10"
-                    }
-                ]
+            ]
+        }, {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "calc2",
+                    title: "What is the answer x = 5 + 5",
+                    choicesOrder: "random",
+                    choices: [
+                        "0", "10", "20", "55", "\"55\""
+                    ],
+                    correctAnswer: "10"
+                }
+            ]
         }, {
             questions: [
                 {

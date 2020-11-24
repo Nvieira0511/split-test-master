@@ -4,45 +4,136 @@ Survey
     .applyTheme("default");
 
 var json = {
-    title: "American History",
+    title: "Interview Screening",
     pages: [
         {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "civilwar",
-                    title: "When was the Civil War?",
+                    name: "arrays",
+                    title: "What index is an Arrays first element?",
                     choices: [
-                        "1750-1800", "1800-1850", "1850-1900", "1900-1950", "after 1950"
+                        "0", "1", "2", "3", "none of the above"
                     ],
-                    correctAnswer: "1850-1900"
+                    correctAnswer: "0"
                 }
             ]
         }, {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "libertyordeath",
-                    title: "Who said 'Give me liberty or give me death?'",
+                    name: "variable",
+                    title: "What type is the variable x = \"s\"",
                     choicesOrder: "random",
                     choices: [
-                        "John Hancock", "James Madison", "Patrick Henry", "Samuel Adams"
+                        "integer", "string", "double", "char"
                     ],
-                    correctAnswer: "Patrick Henry"
+                    correctAnswer: "string"
                 }
             ]
         }, {
             questions: [
                 {
                     type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
+                    name: "calc1",
+                    title: "What is the answer x = \"5\" + \"5\"",
                     choicesOrder: "random",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
+                        "0", "10", "20", "55", "\"55\""
                     ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                    correctAnswer: "\"55\""
                 }
+            ]}, {
+                questions: [
+                    {
+                        type: "radiogroup",
+                        name: "calc2",
+                        title: "What is the answer x = 5 + 5",
+                        choicesOrder: "random",
+                        choices: [
+                            "0", "10", "20", "55", "\"55\""
+                        ],
+                        correctAnswer: "10"
+                    }
+                ]
+        }, {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "calc3",
+                    title: "What is the answer x = \"5\" - \"5\"",
+                    choicesOrder: "random",
+                    choices: [
+                        "0", "10", "20", "55", "\"55\"", "none of the above"
+                    ],
+                    correctAnswer: "none of the above"
+                }
+            ]
+        }, {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "calc4",
+                    title: "What is the answer x = 5 - 5",
+                    choicesOrder: "random",
+                    choices: [
+                        "0", "10", "20", "55", "\"55\"", "none of the above"
+                    ],
+                    correctAnswer: "0"
+                }
+            ]
+        }, {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "calc5",
+                    title: "On average, does completing homework early save you from complications later?",
+                    choicesOrder: "random",
+                    choices: [
+                        "yes", "no", "maybe"
+                    ],
+                    correctAnswer: "yes"
+                }
+            ]
+        }, {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "calc6",
+                    title: "It is a requirement to write code according to coding standards given by superiors",
+                    choicesOrder: "random",
+                    choices: [
+                        "true", "false"
+                    ],
+                    correctAnswer: "true"
+                }
+            ]
+        }, {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "calc7",
+                    title: "Humans analyse web pages typically in a Z or F shaped path",
+                    choicesOrder: "random",
+                    choices: [
+                        "true", "false"
+                    ],
+                    correctAnswer: "true"
+                }
+            ]
+        }, {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "calc8",
+                    title: "What is a Runtime Error?",
+                    choicesOrder: "random",
+                    choices: [
+                        "Occurs when the program contains an illegal operation", "They're referred to as logical errors"
+                    ],
+                    correctAnswer: "Occurs when the program contains an illegal operation"
+                }
+
             ]
         }
     ],
